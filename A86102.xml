@@ -1,0 +1,729 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ad populum: or, A lecture to the people.</title>
+            <author>Hausted, Peter, d. 1645.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1644</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86102</idno>
+            <idno type="STC">Wing H1154</idno>
+            <idno type="STC">Thomason E49_2</idno>
+            <idno type="STC">ESTC R10535</idno>
+            <idno type="EEBO-CITATION">99858857</idno>
+            <idno type="PROQUEST">99858857</idno>
+            <idno type="VID">110916</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86102)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110916)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 9:E49[2])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Ad populum: or, A lecture to the people.</title>
+                  <author>Hausted, Peter, d. 1645.</author>
+               </titleStmt>
+               <extent>[2], 16, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by Henry Hall],</publisher>
+                  <pubPlace>[Oxford] :</pubPlace>
+                  <date>in the yeare 1644.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Peter Hausted.</note>
+                  <note>In verse.</note>
+                  <note>A satire.</note>
+                  <note>Printer's name and place of publication from Wing.</note>
+                  <note>The last leaf is blank.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+                  <note>Annotation on Thomason copy: "By John Taylor"; "Oxon"; "May. 20th".</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-07</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-07</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:110916:1" rendition="simple:additions"/>
+            <p>
+               <hi>AD POP<g ref="char:V">Ʋ</g>L<g ref="char:V">Ʋ</g>M:</hi> OR, A LECTURE TO THE PEOPLE.</p>
+            <p>
+               <add>By John Taylor.</add>
+            </p>
+            <figure>
+               <figDesc>printer's or publisher's device</figDesc>
+            </figure>
+            <p>
+               <add>
+                  <gap reason="illegible" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Oxon may 20<hi rend="sup">th</hi>.</add>
+            </p>
+            <p>Printed in the Yeare 1644.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:110916:2"/>
+            <pb facs="tcp:110916:2"/>
+            <head>
+               <hi>Ad Populum:</hi> OR, A LECTVRE TO THE PEOPLE.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">Y</seg>E dull Idolaters, have ye yet bent</l>
+               <l>Your Knees enough to your Dagon-Parliament?</l>
+               <l>When will ye give us liberty to ſay</l>
+               <l>Yee'r reconcil'd to the <hi>Apocrypha</hi>
+               </l>
+               <l>And beleive <hi>Bell</hi> an Idoll? Do ye yet</l>
+               <l>Diſcerne the Footſteps of the Small and Great</l>
+               <l>In the aſhy Pavement, who, while ye ſtand</l>
+               <l>Halfe ſterved by, devour the Fat o'th Land?</l>
+               <l>Groſſe Aſſe of <hi>Iſſachar,</hi> poore hackney Clowne,</l>
+               <l>Betwixt two Burthens wilt thou ſtill couch downe?</l>
+               <l>Hath not the Sonne of <hi>Beor,</hi> that falſe Seer</l>
+               <l>Yet rid thee low enough, but thou muſt beare</l>
+               <l>Repeated Loades? how truly art thou brought</l>
+               <l>Into a ſtreight, now, where no humane thought</l>
+               <l>Of turning either way can cheriſh't be?</l>
+               <l>When wilt thou ſee the Angell and ſpeake free?</l>
+            </lg>
+            <lg>
+               <pb n="2" facs="tcp:110916:3"/>
+               <l>
+                  <hi>Balaam</hi> inrag'd, thrice ſmote his tyred Aſſe,</l>
+               <l>But had no Sword, he wiſh't for one. Alas!</l>
+            </lg>
+            <lg>
+               <l>Thy Rider need's not wiſh, his Hand doth hold</l>
+               <l>A two-edg'd Blade, with which haveing ſwitch't thee old,</l>
+               <l>Leane, Blinde, &amp; Lame, that thou doeſt groane beneath</l>
+               <l>Thy Cares, thy Bowells he will make his Sheath.</l>
+               <l>And much Good do it ye with your Miſery:</l>
+               <l>Ne're did a fond young Amoriſt long to lye</l>
+               <l>By's Miſtreſſe ſide ſo much, as you to be</l>
+               <l>Poſſeſt of your belov'd Calamity.</l>
+               <l>And faith She hath pay'd you, Sculler, pluckt you bare,</l>
+               <l>Not left you Eyes, nor Teeth, nor Nayles, nor Hayre:</l>
+               <l>The Kingdomes Bridge-Politique is broken too,</l>
+               <l>And not your Lecturers onely ſnuffle now;</l>
+               <l>The Cancro almoſt is Epidemicall.</l>
+            </lg>
+            <lg>
+               <l>Be this my prayer, may they ſo proſper all,</l>
+               <l>Who with unworthy private baſe Intents</l>
+               <l>So run a Whoreing after Parliaments:</l>
+               <l>For 'tis concluded by the graver Bench</l>
+               <l>That <hi>Babylon's</hi> Strumpet's now the ſounder Wench.</l>
+            </lg>
+            <lg>
+               <l>Good heavy Mule, you were too well, when eaſe</l>
+               <l>And happy plenty from the Land and Seas</l>
+               <l>Drop't on your head, which kind heaven rained down</l>
+               <l>By th'bleſſed Influence of a Monarch's Crowne:</l>
+               <l>But long'd to try which were the better Thing,</l>
+               <l>Five hundred Tyrants, or one gentle King.</l>
+            </lg>
+            <lg>
+               <l>Tell me, experienc't Fooles, did not your dayes</l>
+               <l>Glide ſmoothlyer on, when in your harmleſſe Playes</l>
+            </lg>
+            <lg>
+               <l>Ye <hi>Halterd Finch?</hi>
+                  <note place="margin">Chriſtmas games i th Country.</note> ſold <hi>Salt fiſh to the Court?</hi>
+               </l>
+               <l>And <hi>Bob'd your Brother</hi> gently, but in ſport?</l>
+               <pb n="3" facs="tcp:110916:3"/>
+               <l> When ye had <hi>Shorter Sermons, Longer Prayers?</hi>
+               </l>
+               <l>And <hi>ſought the good Saint</hi> Dennis, not your Mares?</l>
+               <l>When the plumpe Dumpling (like a floating Iſle)</l>
+               <l>Swam in your owne deare Allaegre, the while</l>
+               <l>Your Daughter <hi>Al'ce,</hi> in love with <hi>John,</hi> forſooth,</l>
+               <l>Stareing in's Face, though wide, yet miſſ'd her Mouth?</l>
+               <l>When no grimme Saucy Trooper did ye harme,</l>
+               <l>Nor fiercer Dragon, when no Strangers Arme</l>
+               <l>Did retch your yellow Bacon, nor envy</l>
+               <l>The Richneſſe of your Chimnyes Tapeſtry?</l>
+               <l>When good Dame <hi>Ellen</hi> (your beloved Spouſe)</l>
+               <l>Bare to the elbow in the Dairy-houſe,</l>
+               <l>With fragrant Leekes did eat the Cheeſe ſhe wrought,</l>
+               <l>Not ſent it to the Garriſon for nought.</l>
+            </lg>
+            <lg>
+               <l>O thoſe were Golden dayes! all things were quiet</l>
+               <l>While <hi>Pym</hi> did whiſper Treaſon for his Dyet</l>
+               <l>At <hi>Knightlyes</hi> Houſe, and honeſt <hi>Dick</hi> and he</l>
+               <l>In private exerciſ'd their Lechery;</l>
+               <l>Who each Good Friday, ('gainſt the Church a Charm)</l>
+               <l>Were ſure to have a holy Siſter warme:</l>
+               <l>With which Sweet Fleſh, e're they had ought to do,</l>
+               <l>They ſanctified it with a Grace or two.</l>
+            </lg>
+            <lg>
+               <l>But ſee what love of Liberty affords,</l>
+               <l>And the ſtrange Luſting after new-coynd Words!</l>
+            </lg>
+            <lg>
+               <l>How much the better are ye now, I pray,</l>
+               <l>That yee with much expence have learn'd to ſay</l>
+               <l>
+                  <hi>Quarter</hi> for <hi>Lodging,</hi> and can wiſely well</l>
+               <l>What <hi>Carbine</hi> ſignifies, and <hi>Granado,</hi> tell!</l>
+               <l>Which would have paſſ'd with you the other day</l>
+               <l>Fro Six-legg'd Monſters out of <hi>Africa:</hi>
+               </l>
+               <pb n="4" facs="tcp:110916:4"/>
+               <l> And with a painted Cloth, have made a pretty</l>
+               <l>
+                  <hi>Holborne-bridge</hi> Jig, or Foole-Trap in the City.</l>
+               <l>Was not your Ale as browne, as fat your Beefe,</l>
+               <l>Er'e Plunderer was Engliſh for a Theife?</l>
+               <l>Poore Soules! unto your Ruine yee are bent?</l>
+               <l>Yee've gaynd a Word, loſt a Commandement.</l>
+               <l>A glorious Exchange! and we doe feare</l>
+               <l>KIMBOLTON too was purchaſed too deare;</l>
+               <l>For though we yeild it hath a rumbling ſound,</l>
+               <l>Yet 'tis ſcarce worth <hi>five hundred thouſand pound:</hi>
+               </l>
+               <l>The getting of which word by heart, ſome gueſſe,</l>
+               <l>Hath ſtood the Kingdome but in little leſſe:</l>
+               <l>A word of that rough Shape, men looke to know,</l>
+               <l>E're they come near't if't be whole-hoof'd or no;</l>
+               <l>Had <hi>Daniell</hi> known't ſure 'twould have made him ſpare</l>
+               <l>The expence of's boyled Pitch, his Fat, and Hayre,</l>
+               <l>For, arm'd with that alone, he might with eaſe</l>
+               <l>Have choak'd the <hi>Dragon,</hi> without helpe of theſe.</l>
+            </lg>
+            <lg>
+               <l>But theſe your Apples were, yee would be wiſe</l>
+               <l>Though with the Hazard of your Paradiſe?</l>
+            </lg>
+            <lg>
+               <l>It is the greateſt Miſery of Mankind</l>
+               <l>Fortune at once makes Happy and makes Blind.</l>
+               <l>How richly were yee bleſt in Houſe and Field</l>
+               <l>With all the ſtore that a fat Land could yeild,</l>
+               <l>While heartily yee did in every place,</l>
+               <l>At the Kings Name, cry out, <hi>God ſave His Grace,</hi>
+               </l>
+               <l>Not bleſſe the godly Parliament? Ye then</l>
+               <l>Were not enſlav'd, but free-borne Engliſhmen;</l>
+               <l>Your Stacks of Corne were then your own; nay more,</l>
+               <l>Ye durſt lay Clayme then to the Clothes yee wore:</l>
+               <pb n="5" facs="tcp:110916:4"/>
+               <l> Your Wives blew Ruffe, and Stammell Petticoate</l>
+               <l>(In Statute-Lace, which coſt her many a Groat</l>
+               <l>While any Statute was in uſe) then lay</l>
+               <l>In quiet Lavander till the next high Day:</l>
+               <l>Your Sunday-Cloake as then did not miſcary,</l>
+               <l>But ſure it was to be i'th Inventory,</l>
+               <l>When weary of this life, you had the hap</l>
+               <l>With a Warme Pepper-poſſet and a Cap</l>
+               <l>To leave the world, for writing which the Vicar</l>
+               <l>Receiv'd his Twelve pence and a Cup of Liquour.</l>
+            </lg>
+            <lg>
+               <l>Thoſe Dayes are gone, your Creſts are fallen down,</l>
+               <l>And now your journyes to the Market Towne</l>
+               <l>Are not to ſell your Peaſe, your Oates, your Wheat,</l>
+               <l>But of Nine Horſes ſtolne from you t'intreat</l>
+               <l>But one to be reſtor'd: and this yee doe</l>
+               <l>To a buff'd Captaine, or perhaps unto</l>
+               <l>His ſurly Corporall, with the ſame degree</l>
+               <l>Of Cringeing and ſordid Idolatry</l>
+               <l>Ye uſed in the former dayes to fall</l>
+               <l>Proſtrate unto your Land-Lord in his Hall,</l>
+               <l>When with low Leggs, and in an humble guiſe</l>
+               <l>Ye offer'd up a Capon-Sacrifice</l>
+               <l>Unto his Worſhip at a New-year Tide:</l>
+               <l>For which i'th Buttery having ſtuff'd your hide</l>
+               <l>With ſtore of Drinke, as heartleſſe as 'twas cold,</l>
+               <l>(Which nothing but an Aſſes Hoofe could hold)</l>
+               <l>Ye tooke your leave, making your three long Stretches,</l>
+               <l>One to Himſelfe, Two to his Velvet Breeches.</l>
+            </lg>
+            <lg>
+               <l>No more, no more ſhall yee take pleaſant journyes,</l>
+               <l>(The Tempters at your Elbowes, Your Atturnyes)</l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:110916:5"/>
+               <l>Twice by the yeare to the Shire Towne, and there</l>
+               <l>O'rethrow a Parſon, Drinke drunke, and Forſweare</l>
+               <l>Your ſelves, which being done, goe home and cry</l>
+               <l>The Common-wealth's bound to your Induſtry.</l>
+            </lg>
+            <lg>
+               <l>No more, no more ſhall yee in Triumph ſay</l>
+               <l>A <hi>Pickering,</hi> a <hi>Cromwell,</hi> and a <hi>Wray</hi>
+               </l>
+               <l>At your Knights Choyce, not (which appear'd moſt fine)</l>
+               <l>The bounteous Conduits ran pure Claret Wine:</l>
+               <l>Which were good Breathings from Affliction,</l>
+               <l>Like comely Stops in an Oration,</l>
+               <l>Which intervall'd your Greife: but now yee lye</l>
+               <l>Under a ſcourging Perpetuity,</l>
+               <l>Deſtroying you by whole Sale, in ſuch ſort</l>
+               <l>For your undoing neither wine nor ſport</l>
+               <l>Shall be allow'd yee. When yee joy'd to ſee</l>
+               <l>Gods Altars pulled downe by a Decree</l>
+               <l>Of <hi>Omri,</hi> and his holy Temples made</l>
+               <l>Worſe then your Stables, ſordidly betray'd</l>
+               <l>To Filth (our Kingdomes everlaſting Stayne)</l>
+               <l>The Carved workes torne downe by the Profane;</l>
+               <l>When yee beheld the Houſes of your King,</l>
+               <l>His Ships, Townes, Caſtles, nay his every Thing</l>
+               <l>Detayn'd from him, could yee ſo fooliſh be</l>
+               <l>To thinke that your poore Cottages could be free?</l>
+            </lg>
+            <lg>
+               <l>When ye did dayly heare ſuch foule Diſgrace</l>
+               <l>Such Blaſphemies throwne in th'Almighties Face</l>
+               <l>From out your Pulpits, and did thither run,</l>
+               <l>Chirping upon your Lecturers while 'twas done;</l>
+               <l>When 'twas your Joy to ſee Gods Service fall,</l>
+               <l>Or worſhip't ſlovenly, or not at all;</l>
+               <pb n="7" facs="tcp:110916:5"/>
+               <l> When ye ſo chearefully did entertaine</l>
+               <l>Such Lyes and Slanders gainſt your Soveraigne,</l>
+               <l>Who could bewitch ye into ſo much Truſt</l>
+               <l>To thinke your Honour ſhould not lye i'th Duſt?</l>
+               <l>Or that your Fourty Markes, to which ye were borne,</l>
+               <l>In Soccage, could redeeme ye from juſt Scorne?</l>
+               <l>When with a Solemne Gladneſſe ye did breake</l>
+               <l>The holy Scept, and did no difference make</l>
+               <l>'Twixt the unhallow'd and the hallow'd Land,</l>
+               <l>Could you beleive that your owne walls ſhould ſtand?</l>
+               <l>Or that a Bore (the Fence being broken through)</l>
+               <l>Should not lay waſt and ſpoyle your Vineyards too?</l>
+               <l>That Man plants Hedges 'bout himſelfe in vaine,</l>
+               <l>Who layes in common Sacred and Profane.</l>
+            </lg>
+            <lg>
+               <l>When your learn'd Preiſts, made guilty of all Ills,</l>
+               <l>Like Partridges were hunted on the Hills,</l>
+               <l>By Painted Chamber and Committee-Men,</l>
+               <l>Where were your Teares? where was your Sackcloth then?</l>
+               <l>It was your Game to ſee't, each Buſh was bear,</l>
+               <l>And not a common Mouth but cryed Rett.</l>
+               <l>And ſee the Fruit of it, Your Quarry now,</l>
+               <l>Like Iſraells Quailes, peeps through your Noſtrills too;</l>
+               <l>Your Clergies Scorne is prov'd your Plague, &amp; will.</l>
+            </lg>
+            <lg>
+               <l>Go, Go, make Bone fires now, let every Hill</l>
+               <l>Shine with your Idoll-Flames, and every Grove</l>
+               <l>Be fill'd with Siſters, Zeale, Joy, Pigs, and Love;</l>
+               <l>Let <hi>Wiſdomes</hi> Turke and Pope, the reſt among,</l>
+               <l>For Aye amidſt the Bretheren now be ſung,</l>
+               <l>Arch Deacon <hi>Cromwells</hi> viſitation</l>
+               <l>Hath cleanſed all (in whoſe pure voines doth run</l>
+               <pb n="8" facs="tcp:110916:6"/>
+               <l> Th'reforming Bloud and vertues of his Grand</l>
+               <l>Parent, that Man of Iron, whoſe tough Hand,</l>
+               <l>Arm'd with his Fathers Hammer, at one Blow</l>
+               <l>Made many a ſtately Abbey lie full low)</l>
+               <l>Who in one godly March upon his way</l>
+               <l>(Help'd by his Surrogate the good Lord <hi>Grey</hi>)</l>
+               <l>Five Croſſes kill'd, Five bookes of Common Prayers,</l>
+               <l>Five Surplices, Five Fiddles, and Five Beares.</l>
+            </lg>
+            <lg>
+               <l>Bleſſ'd Reformation! And the Time will come</l>
+               <l>When Apes as well as Beares ſhall have their Doome,</l>
+               <l>And Badgers Furre grow<g ref="char:punc">▪</g> Cheap<g ref="char:punc">▪</g> Deluded Elves,</l>
+               <l>Where are thoſe dayes you promiſ'd to your ſelves,</l>
+               <l>When ye ſhould drink Sack from your own plump well,</l>
+               <l>And all your Ditches ſhould run Muskadell?</l>
+               <l>The Biſhops Votes are gone, great <hi>Strafford</hi> lies</l>
+               <l>To appeaſe the Baſe a Noble Sacrifice;</l>
+               <l>And yet in ſadneſſe (Sirs) I cannot finde</l>
+               <l>That it raines Fretters yet, or that the Wind</l>
+               <l>On his ſoft Wing brings Spices from the <hi>Eaſt,</hi>
+               </l>
+               <l>Without our Ships, or Ingots from the <hi>Weſt:</hi>
+               </l>
+               <l>Nature is ſtill the old ſlow Thing ſhe was,</l>
+               <l>And gravely brings her buſineſſes to paſſe</l>
+               <l>By Sober temperate ſteps; ſhe does not yet</l>
+               <l>Ride Poſt, make Souce and Puddings at a Heate:</l>
+               <l>Nor does our Mother Earthes kind Bowells yeild</l>
+               <l>Us Choynes of Beefe, yet or the Brawny Sheild,</l>
+               <l>As the Fens do Turffe, for Digging; the ſame Courſe</l>
+               <l>She ſtill obſerves, onely 'tis ſomething worſe.</l>
+            </lg>
+            <lg>
+               <l>You thought 'twas brave to rule, and therefore layed</l>
+               <l>That burden on your owne, which God had made</l>
+               <pb n="9" facs="tcp:110916:6"/>
+               <l> For greater Shoulders; Ye injoyed no reſt</l>
+               <l>Till your High Conſtable was above your Preiſt,</l>
+               <l>Angry ye were, and did accuſe the Fates</l>
+               <l>For making of ye Subjects, and not States;</l>
+               <l>Which yee determined to alter, and</l>
+               <l>Reſolv'd your owne, not Heavens Decree ſhould ſtand;</l>
+               <l>Inrag'd, yee had it in your heart to ſtone them,</l>
+               <l>
+                  <hi>Moyſes</hi> and <hi>Aaron</hi> tooke too much upon them;</l>
+               <l>Ye could not ſleepe, nor yet in quiet ſit</l>
+               <l>Till an Ordinance tooke place of ſacred Writ.</l>
+            </lg>
+            <lg>
+               <l>Ye'ave almoſt your whole wiſh: and, faith, confeſſe,</l>
+               <l>What have yee got? Come, be ingenious.</l>
+            </lg>
+            <lg>
+               <l>Would yee not give the beſt horſe in your Teame</l>
+               <l>The three yeares paſt were but a fearefull Dreame,</l>
+               <l>And hug your Reſurrection, that yee might</l>
+               <l>Retaſt that Manna, once yee ſet ſo light?</l>
+            </lg>
+            <lg>
+               <l>Wee'l not deny't, many great Greivances,</l>
+               <l>And Scarlet Sinnes were nouriſhed, ſuch as theſe?</l>
+            </lg>
+            <lg>
+               <l>Land-Lords exacted Rents, the Prieſts were growne</l>
+               <l>So proud, they call'd th'tenth of our Crop their owne:</l>
+               <l>The Spirituall Courts in every Corner rife,</l>
+               <l>A Carnall exerciſe with a Neighbours Wife</l>
+               <l>Could not be had, but ſtraight they made us ſtand</l>
+               <l>Pinn'd in a Linnen Bag with a white wand,</l>
+               <l>Betraying ſo our Chriſtian Liberty,</l>
+               <l>Which gives us Title unto all we ſee.</l>
+            </lg>
+            <lg>
+               <l>Groſſe Innovations in Religion too</l>
+               <l>Were frequent growne; O what a Tedious doe</l>
+               <l>Have ſome Sir <hi>Johns</hi> made, that they might recall</l>
+               <l>That Superſtitious hypocriticall,</l>
+               <pb n="10" facs="tcp:110916:7"/>
+               <l> That Popiſh Tricke of praying on the Knee,</l>
+               <l>As if GOD joy'd in's Servants Miſery?</l>
+               <l>Troubling the eaſe and quiet of the Saints,</l>
+               <l>(A haynous Crime, and cauſing ſad complaints)</l>
+               <l>Whoſe Poſtures ſhould be ſuch as might the beſt</l>
+               <l>Marke out and typifie eternall Reſt:</l>
+               <l>Thoſe Idoll-Altar Bookes, ſtuft full of Croſſes,</l>
+               <l>Bound up in Silver Anti-Chriſtian Boſſes,</l>
+               <l>Made of the Whore of <hi>Babilons</hi> Thimbles, ſtood</l>
+               <l>Preaching-aloft to grace their God of Wood;</l>
+               <l>And men began to prize them more, then either</l>
+               <l>The powerfull <hi>Dod,</hi> or his bleſt Pew-Mate <hi>Cleaver.</hi>
+               </l>
+               <l>Sad times the while! nay (worſe in this then <hi>Turkes</hi>)</l>
+               <l>Th' <hi>Arminian</hi> Preachers had ſo cryed up workes,</l>
+               <l>That fooliſh Men (ſo evill were the dayes)</l>
+               <l>Began to make a Conſcience of their wayes.</l>
+               <l>Now bleſſe us all! we were i'th very Road</l>
+               <l>To <hi>Rome,</hi> and ſhortly ſhould have worſhipp'd God.</l>
+               <l>By our Idolatrous Forefathers reard,</l>
+               <l>Churches (in ſooth) began to be repair'd,</l>
+               <l>Nay more to be adorn'd; Weepe, weepe mine eyes!</l>
+               <l>This is a roreing ſinne, a ſinne that cryes!</l>
+               <l>And had not this beene ſtopt, there had beene found</l>
+               <l>Who would have ſworn they'd ſtood on holier ground,</l>
+               <l>Then a Juſtice Parler on whoſe Cuſhionly</l>
+               <l>A <hi>Dalton</hi> and <hi>Practice of Piety.</hi>
+               </l>
+               <l>To ſanctifie the Roome, and purge from ſinne</l>
+               <l>The Bribes his Country Viſitours bring in:</l>
+               <l>The Corporation-Cuſtard, which before</l>
+               <l>(As the fierce Seas curb'd by the Sandy Shore)</l>
+               <pb n="11" facs="tcp:110916:7"/>
+               <l> Did check the fluent Lect'rers heaving veyne,</l>
+               <l>And call'd the Spirit into his Bounds againe,</l>
+               <l>Aw'd by the Plumbroath every houre</l>
+               <l>Loſt more and more ſtill of it's wonted Power,</l>
+               <l>And though the Siſters dayly did ſupply</l>
+               <l>VVith Sighes and Egges to make the Guſto high,</l>
+               <l>Yet 'twould not do: Pride, pride, the Clergies Pride,</l>
+               <l>(VVhich I aſſure ye, Sirs, was at ſpring Tide)</l>
+               <l>Had got that growth, they did not bluſh to ſay</l>
+               <l>They would not preach to pleaſe the People, they.</l>
+               <l>Ranck Hereſie, if good <hi>Mas: Henderſon</hi>
+               </l>
+               <l>Can tell what Hreſie is—</l>
+            </lg>
+            <lg>
+               <l>How ſaucy were they growne, who dar'd to preach</l>
+               <l>Th'Elect could Sinne? (O moſt abhorred Breach</l>
+               <l>Of th'Faithfulls Prividedge!) and that Gods Sheepe</l>
+               <l>VVere not whom <hi>Marſhall</hi> brands, but they who keepe</l>
+               <l>Th'Impoſſible Commandements. Beſide,</l>
+               <l>They taught the way to Heaven was not ſo wide</l>
+               <l>That a Firſt-Table-Saint who with a Brother</l>
+               <l>Faithfull and call'd, made bold to breake the other,</l>
+               <l>Could croud her Belly in: therefore in ſcorne,</l>
+               <l>To take it up, they adviſ'd each night and morne,</l>
+               <l>She ſhould in humble manner, ſoft and faire,</l>
+               <l>VValke by the Brooke of Penance, and then aire</l>
+               <l>Her ſelfe 'bout VVeeping-Croſſe, early and late,</l>
+               <l>To fit her Body for the narrow Gate</l>
+               <l>Malitiouſly they taught that no man given</l>
+               <l>To Fleſhly Luſts, ſo dying ſhould ſee Heaven.</l>
+               <l>Uncomfortable Doctrines ſure they were,</l>
+               <l>Enough to make the Godly to deſpaire.</l>
+               <pb n="12" facs="tcp:110916:8"/>
+               <l> VVho uſing th'Creature freely, as their owne,</l>
+               <l>(As 'tis indeed) are often very prone;</l>
+               <l>Yet notwithſtanding that looke to be Heires</l>
+               <l>Of Heavens joy too, for verily all is Theirs.</l>
+               <l>Nor will the Preiſt e're better Manners have</l>
+               <l>So long as Tithes are left to feed the Knave,</l>
+               <l>Thoſe Villanous Tithes, th'Aegyptians Fleſh-pots, whence</l>
+               <l>They loath the <hi>Manna</hi> of Benevolence.</l>
+            </lg>
+            <lg>
+               <l>Alas poore Fooles! we know not what we looſe</l>
+               <l>When we do part with our Tenth Lamb and Gooſe,</l>
+               <l>Surely ther's Witchcraft in't; the very Fat</l>
+               <l>And Marrow of our Subſtance lies in that,</l>
+               <l>Being the Top of Numbers; and 'tis thought</l>
+               <l>Sinews and ſtrength from'th Brawny <hi>Hercules,</hi>
+               </l>
+               <l>From whom that Heatheniſh cuſtome firſt did riſe,</l>
+               <l>For marke and ye ſhall find the plump Divine</l>
+               <l>Grow fat by th'Tenth, we leane by th'other Nine,</l>
+               <l>Which Nature teacheth too, looke on the Sea</l>
+               <l>And ſhe her Tith in the Tenth Wave doth pay</l>
+               <l>Luſtier then all the reſt, as if ſhe meant</l>
+               <l>To Seale that Number with a Sacrament.</l>
+            </lg>
+            <lg>
+               <l>What'ere the Matter be, it is a Gemme</l>
+               <l>Unknowne to us, but farre too rich for Them.</l>
+            </lg>
+            <lg>
+               <l>Therefore 'tis fit Committees ſhould be ſent</l>
+               <l>Unto the godly Dowager of <hi>Kent,</hi>
+               </l>
+               <l>That the beloved Matron might prick on</l>
+               <l>Her learn'd and Antiquated Champion,</l>
+               <l>(Like a French Chimney-Sweeper) t'creepe once more</l>
+               <l>Into <hi>Cottons</hi> Library through the Back dore,</l>
+               <pb n="13" facs="tcp:110916:8"/>
+               <l> And fetch from thence a Doſe of <hi>Syriack</hi> Ruſt,</l>
+               <l>Soot <hi>Arahick Ana,</hi> and of Eaſterne Duſt</l>
+               <l>Enough to caſt into the Peoples Eyne,</l>
+               <l>They may not ſee Tithes to be things Divine.</l>
+               <l>For while they'r bold to vent ſuch dareing words,</l>
+               <l>That not our Trencher feedes them, but the Lords,</l>
+               <l>Be confident of this (ſuch is their Pride,)</l>
+               <l>His Buſineſſe ſhall be done, ours laid aſide.</l>
+            </lg>
+            <lg>
+               <l>All this is true, But pray ye Neighbours ſay,</l>
+               <l>While thoſe light Burthens on your Shoulders lay</l>
+               <l>Had ye not merrier Dayes? The King and Law</l>
+               <l>Call'd for ſome bricke indeed, but gave ye ſtraw;</l>
+               <l>The Ship-Mony was a weight: well, yeild it ſo;</l>
+               <l>Since that was damn'd, does the World better grow?</l>
+               <l>Have ye no Burthens now? O happy Men!</l>
+               <l>The twentieth Part ye'ave paid, the Fifth, and when</l>
+               <l>Your new Task-Maſters ſhalbe pleaſed to call</l>
+               <l>And ſay ye are Delinquents, Farewell All:</l>
+               <l>New victories coyn'd to cheat ye every houre,</l>
+               <l>Your Purſe muſt bleed ſo long as they have Power</l>
+               <l>To lye, your Taxes to the Garriſons,</l>
+               <l>The Preſſing and the Slaughter of your Sonnes,</l>
+               <l>Secret Benevolences, and to theſe</l>
+               <l>To top up all, but Fifty Subſidies.</l>
+            </lg>
+            <lg>
+               <l>Are theſe no Burthens? Let me pitty you,</l>
+               <l>Sad Soules for onley that is left ye now</l>
+            </lg>
+            <lg>
+               <l>Happy ye were and might have ſo abode,</l>
+               <l>Had ye not kneel'd like Camells for your Load:</l>
+               <l>They ne're had riſen had you kept your State,</l>
+               <l>Till ye were wretched, they could not be Great.</l>
+               <pb n="14" facs="tcp:110916:9"/>
+               <l> Therefore as crafty Glaſiers, who retaine</l>
+               <l>Night-walking Drunkards in a <hi>Penſion,</hi>
+               </l>
+               <l>That when the Dankneſſe and the Drink command</l>
+               <l>Windowes may fall, that their fraile Trade may ſtand;</l>
+               <l>Or ſeemeing Conjurers, who have Theives in Pay:</l>
+               <l>So dealt the cunning Men with you. For they,</l>
+               <l>That their great skill in Surgery might be crown'd,</l>
+               <l>And their rare Balſame ſought for, made the VVound.</l>
+               <l>Who (like the meaner Stars which hidden lye</l>
+               <l>While the World's look't on by the Heavens ſole eye)</l>
+               <l>That they might be ador'd, and appeare Bright,</l>
+               <l>Reſolv'd to turne the Globe, and make it Night:</l>
+            </lg>
+            <lg>
+               <l>And good Night Land-lord, when will it be Day?</l>
+               <l>(Tis hard to give, eaſier to take away.)</l>
+               <l>So faint our Hopes be that the ſprightly Morne</l>
+            </lg>
+            <lg>
+               <l>Should ever more make her defir'd Returne,</l>
+               <l>That they have hardly left a Cocke to ſay</l>
+               <l>To our ſad Hearts, Cheare up, it will be Day:</l>
+               <l>Or call us to Repentance for the ſinne</l>
+               <l>We have ſo long ſecurely ſlumber'd in,</l>
+               <l>The Deny all of our Lord. At firſt indeed</l>
+               <l>They Playd with you, as with a new-back'd ſteed,</l>
+               <l>Nor did they thinke it fit to fill your Eie</l>
+               <l>With the whole Scene of your large Miſerie;</l>
+               <l>But drew the Curtaine by Degrees 'Twas light,</l>
+               <l>Your burthen then, to beare a Beardleſſe Knight</l>
+               <l>Upon your backs, what was it, errant Gulls,</l>
+               <l>To thinke that Calves in time would not prove Bulls?</l>
+               <l>Or that like <hi>Milo,</hi> you ſhould grow in height</l>
+               <l>Of ſtrength and Sinew, as your Load in weight!</l>
+               <pb n="15" facs="tcp:110916:9"/>
+               <l> Of your New States how could ye thinke ſo ill,</l>
+               <l>When all things elſe increaſe they ſhould ſtand ſtill?</l>
+               <l>No, no, each Man of them is grown ſo ſpread</l>
+               <l>(Upon the common ſtock of Fat things fed)</l>
+            </lg>
+            <lg>
+               <l>That the tall <hi>Atlas,</hi> who the Heavens doth beare,</l>
+               <l>Has't under Seale, not one of them comes There.</l>
+            </lg>
+            <lg>
+               <l>Nine dozen of bread din'd the young Elephant:</l>
+               <l>Whom, when he had more yeares and volume, Scant</l>
+               <l>A Tun would ſatisfie; Change but the Name,</l>
+               <l>The Fable's Theyrs: And they confeſſe the ſame,</l>
+               <l>Who are about to geld the Members now:</l>
+               <l>(What will the Legiſlative Ladies do?)</l>
+               <l>For ſince that neither the new-raiſ'd Exciſe,</l>
+               <l>The Sequeſtrations (though they high do riſe)</l>
+               <l>Their Staple of Plunder nor Jewes fetch't of late</l>
+               <l>To buy the Wickeds circumciſ'd Eſtate</l>
+               <l>Can fill them all, they are reſolv'd to bate</l>
+               <l>Something in Number, as they thrive in weight.</l>
+               <l>(So have I ſeene good Husbands when they found</l>
+               <l>Unneceſſary Stowage clogg their ground,</l>
+               <l>Pull downe out-houſes, that they might not be</l>
+               <l>Charg'd with Repaires, where they no profit ſee)</l>
+               <l>As if they meant to let ye underſtand</l>
+               <l>That five and twenty now can ſpoyle the Land.</l>
+            </lg>
+            <lg>
+               <l>All this and more, ye cannot chufe but ſee,</l>
+               <l>And will ye ſtill Court your owne Miſery?</l>
+            </lg>
+            <lg>
+               <l>Returne, returne unto your God and King,</l>
+               <l>Obedient hearts, and faire Peace-Offerings bring,</l>
+               <l>So ſhall your weary ſhoulders ſoone be eaſ'd</l>
+               <l>For with ſuch Sacrifices Both are pleaſ'd.</l>
+               <pb n="16" facs="tcp:110916:10"/>
+               <l> O be Profane no more, no more defile</l>
+               <l>Gods Temples, nor tread on the ſacred oyle</l>
+               <l>Which doth anoint both King and Prieſt, no more</l>
+               <l>Caſt amorous Glances on that painted whore</l>
+               <l>Who ſits at <hi>Weſt-Minſter,</hi> and 'moungſt the reſt,</l>
+               <l>Hath alſo this knowne Character of the Beaſt,</l>
+               <l>She in a Temple maketh her abode,</l>
+               <l>Lifting herſelfe 'bove all that's called God:</l>
+               <l>But ſet your Love on them, who for your good.</l>
+               <l>Are met to hazard both Eſtates and Bloud,</l>
+               <l>The <hi>Oxford-Parliament;</hi> for, if there be</l>
+               <l>At this time any, ſurely that is ſhe.</l>
+               <l>Be no more frighted from all Piety</l>
+               <l>Under a falſe Notion of Popery,</l>
+               <l>That Mask is ſtale: call it no more <hi>The Cauſe,</hi>
+               </l>
+               <l>Or Chriſtian Liberty, to have no Lawes:</l>
+               <l>In points of Faith, take heed how ye appeale</l>
+               <l>To the New Goſpell made by <hi>SAY</hi> and <hi>SEALE.</hi>
+               </l>
+               <l>Let <hi>Davids</hi> Pſalmes be above <hi>Sternholds</hi> Meter,</l>
+               <l>And <hi>Wrayes</hi> Occaſionalls yeild to Saint <hi>Peter.</hi>
+               </l>
+               <l>Set up Church Diſcipline anew, be wiſe:</l>
+               <l>(For ſince that fell your Daughters Bellies riſe:)</l>
+               <l>Grow Charitable againe, let not your Hate</l>
+               <l>And private ſpleene bring forth a publique Fate:</l>
+               <l>So ſhall ye happy be, and ſoone returne</l>
+               <l>The Nations Envy, who are now their ſcorne:</l>
+            </lg>
+            <lg>
+               <l>Take up at laſt, then learne to underſtand</l>
+               <l>The Plow and Scepter are not for one Hand.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:110916:10"/>
+         </div>
+      </body>
+   </text>
+</TEI>
